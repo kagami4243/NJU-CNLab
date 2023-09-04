@@ -1,0 +1,12 @@
+#!/home/njucs/workspace/syenv/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'switchyard==2019.1.1','console_scripts','swyard'
+__requires__ = 'switchyard==2019.1.1'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('switchyard==2019.1.1', 'console_scripts', 'swyard')()
+    )

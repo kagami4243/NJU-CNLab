@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/njucs/workspace/syenv/bin/python3",
+    "python.formatting.provider": "black"
+}
